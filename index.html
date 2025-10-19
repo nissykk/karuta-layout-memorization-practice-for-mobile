@@ -4,32 +4,40 @@
     <meta charset="UTF-8">
     <title>かるた暗記アプリ for モバイル</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <h2>設定</h2>
     <div id="settings">
-        <label>使用する札数: 
-            <input type="number" id="cardCount" value="50" step="2">
-        </label>
-        <label>自陣の配置: 
+        <fieldset>
+            <legend>数字選択方法 (ID下一桁):</legend>
+            <label><input type="radio" name="digitMode" value="random" checked> ランダム</label>
+            <label><input type="radio" name="digitMode" value="manual"> 手動選択</label>
+        </fieldset>
+        <fieldset id="manualDigitSelection" class="hidden">
+            <legend>使用する数字 (5つ選択):</legend>
+            <div id="digitCheckboxes"></div>
+        </fieldset>
+        <div id="selectedDigitsArea" style="margin-top: 10px;">
+            選択された数字: <span id="selectedDigitsDisplay">-</span>
+        </div>
+        <label style="margin-top:15px; display: block;">自陣の配置:
             <select id="jiJinMode">
                 <option value="auto">定位置（自動）</option>
                 <option value="manual">手動で並べる</option>
             </select>
         </label>
-        <button id="startButton">開始</button>
     </div>
 
-<h2>タイマー: 
+    <h2>タイマー:
         <select id="timerSelect" aria-label="タイマー時間選択">
-            <option value="1">1分</option>
-            <option value="3">3分</option>
-            <option value="5">5分</option>
-            <option value="10">10分</option>
-            <option value="15" selected>15分</option>
+            <option value="1">1分</option> <option value="3">3分</option> <option value="5">5分</option>
+            <option value="10">10分</option> <option value="15" selected>15分</option>
         </select>
         <span id="timerDisplay">15:00</span>
     </h2>
+
+    <button id="startButton" style="margin-top: 15px; margin-bottom: 10px;">開始</button>
 
     <div id="instructionArea" style="margin: 10px 0; padding: 8px; background-color: #eee; border-radius: 4px;">
         操作: <span id="instructionText">「開始」ボタンを押してください</span>
@@ -41,13 +49,12 @@
     </div>
 
     <div id="manualArea" class="hidden">
-        <h3>手札（自陣に並べてください）</h3>
-        <div id="temaeFuda"></div> 
+        <h3>手札（自陣に配置してください）</h3>
+        <div id="temaeFuda"></div>
     </div>
 
     <h3>空札 <button id="toggleKaraFuda">表示/非表示</button></h3>
     <div id="karaFudaList" class="hidden"></div>
-
 
     <script src="app.js"></script>
 </body>
