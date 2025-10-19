@@ -1,0 +1,181 @@
+/* --- グローバル設定 --- */
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+}
+
+h2, h3 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* --- 設定エリア --- */
+#settings {
+    margin-bottom: 20px;
+}
+
+/* --- タイマー --- */
+#timerDisplay { /* spanタグを対象 */
+    font-size: 1em; /* selectタグと高さを合わせる */
+    font-weight: bold;
+    color: #d9534f;
+    margin-left: 10px;
+}
+
+/* --- 競技フィールド（陣地） --- */
+.karuta-field {
+    width: 87vw; 
+    min-height: calc(87vw * 21.9 / 87 + 20px); 
+    
+    background-color: #d2e8d2; 
+    border: 3px solid #6b4c1e;
+    padding: 10px;
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3段 */
+    gap: 1vw; /* 【要望3】 札の縦の隙間は1cm */
+}
+
+/* 【要望3】 相手陣と自陣の札の縦の隙間は3cm */
+#tekiJin {
+    margin-bottom: 3vw; 
+}
+
+
+/* --- 札を置く「段」（スロット） --- */
+.row-slot {
+    width: 100%;
+    min-height: 8vw; 
+    display: flex;
+    justify-content: space-between; /* 左右のグループを端に寄せる */
+    align-items: center;
+}
+
+/* --- 左右の札グループ --- */
+.left-group, .right-group {
+    display: flex;
+    align-items: center;
+    gap: 0; /* 札同士の隙間をなくす */
+    height: 100%;
+}
+
+/* 相手陣のグループは左右逆順に並べる */
+#tekiJin .left-group {
+    flex-direction: row-reverse;
+}
+#tekiJin .right-group {
+    flex-direction: row-reverse;
+}
+
+/* ドラッグ中の札がグループ上に来た時のスタイル */
+.left-group.drag-over, .right-group.drag-over {
+    background-color: rgba(255, 255, 0, 0.3);
+    border: 1px dashed #333;
+}
+
+/* 手動配置モード中の自陣スロットを目立たせる */
+#jiJin.manual-setup .row-slot {
+    border: 2px dashed #d9534f;
+    background-color: rgba(255, 230, 230, 0.5);
+}
+
+
+/* --- 札（とりふだ） --- */
+.fuda {
+    width: 5.3vw; 
+    height: 7.3vw; 
+
+    border: 1px solid #333;
+    border-radius: 3px;
+    background-size: cover;
+    background-position: center;
+    cursor: grab;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    
+    margin: 0;
+    padding: 0;
+    transition: transform 0.1s ease-out;
+}
+
+/* 相手陣の札は上下逆さま */
+#tekiJin .fuda {
+    transform: rotate(180deg);
+}
+
+/* ドラッグ中の札のスタイル */
+.fuda.dragging {
+    opacity: 0.4;
+    cursor: grabbing;
+    transform: scale(1.05); 
+}
+
+/* 札の裏側（暗記練習用） */
+.fuda.back {
+    background-image: none !important; 
+    background-color: #2E8B57; 
+    cursor: pointer;
+}
+
+/* 相手陣の裏札も180度回転したままにする */
+#tekiJin .fuda.back {
+    transform: rotate(180deg);
+}
+
+
+/* --- 手札エリア --- */
+#manualArea {
+    border: 2px dashed #999;
+    background-color: #eee;
+}
+#temaeFuda {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100px;
+    width: 87vw;
+    gap: 0; 
+}
+
+/* ユーティリティ */
+.hidden {
+    display: none !important; /* !important を追加して強制的に非表示にする */
+}
+
+/* --- 【要望4】 空札リスト --- */
+#karaFudaList {
+    width: 87vw;
+    border: 1px dashed #999;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* 札同士の隙間 */
+    background-color: #f4f4f4;
+}
+
+/* 【要望4】 空札の札スタイル (0.7倍) */
+#karaFudaList .fuda {
+    width: calc(5.3vw * 0.7);
+    height: calc(7.3vw * 0.7);
+    transform: none; /* 逆さまにしない */
+    cursor: default;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* --- クリック選択中の札スタイル (タップ方式用) --- */
+.fuda.selected {
+    opacity: 0.5 !important; /* 半透明にして選択中を示す (!importantで確実に適用) */
+    /* position: absolute や transform は不要 */
+    box-shadow: 0 0 10px 3px yellow; /* 選択中を分かりやすくする枠線 (任意) */
+}
+
+/* 選択解除時のアニメーション（opacityを追加） */
+.fuda {
+    /* ...既存の .fuda スタイルに追加... */
+    transition: transform 0.1s ease-out, opacity 0.1s ease-out;
+}
+
+/* ドラッグ関連のスタイルは不要なのでコメントアウトまたは削除 */
+/*
+.fuda { cursor: grab; }
+.fuda.dragging { cursor: grabbing; }
+.left-group.drag-over, .right-group.drag-over { ... }
+*/

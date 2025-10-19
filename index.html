@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>かるた暗記アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>設定</h2>
+    <div id="settings">
+        <label>使用する札数: 
+            <input type="number" id="cardCount" value="50" step="2">
+        </label>
+        <label>自陣の配置: 
+            <select id="jiJinMode">
+                <option value="auto">定位置（自動）</option>
+                <option value="manual">手動で並べる</option>
+            </select>
+        </label>
+        <button id="startButton">開始</button>
+    </div>
+
+<h2>タイマー: 
+        <select id="timerSelect" aria-label="タイマー時間選択">
+            <option value="1">1分</option>
+            <option value="3">3分</option>
+            <option value="5">5分</option>
+            <option value="10">10分</option>
+            <option value="15" selected>15分</option>
+        </select>
+        <span id="timerDisplay">15:00</span>
+    </h2>
+
+    <div id="instructionArea" style="margin: 10px 0; padding: 8px; background-color: #eee; border-radius: 4px;">
+        操作: <span id="instructionText">「開始」ボタンを押してください</span>
+    </div>
+
+    <div id="karutaFieldContainer">
+        <div id="tekiJin" class="karuta-field"></div>
+        <div id="jiJin" class="karuta-field"></div>
+    </div>
+
+    <div id="manualArea" class="hidden">
+        <h3>手札（自陣に並べてください）</h3>
+        <div id="temaeFuda"></div> 
+    </div>
+
+    <h3>空札 <button id="toggleKaraFuda">表示/非表示</button></h3>
+    <div id="karaFudaList" class="hidden"></div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

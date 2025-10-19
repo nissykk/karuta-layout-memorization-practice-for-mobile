@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "kami": "秋の田の かりほの庵の 苫をあらみ",
+    "shimo": "わか衣手は 露にぬれつつ",
+    "kimariji": "あきの",
+    "image_path": "img/f1s1_001.jpg"
+  },
+  {
+    "id": 2,
+    "kami": "春過ぎて 夏来にけらし 白妙の",
+    "shimo": "衣ほすてふ 天の香具山",
+    "kimariji": "はるす",
+    "image_path": "img/f1s1_002.jpg"
+  },
+  {
+    "id": 3,
+    "kami": "あしびきの 山鳥の尾の しだり尾の",
+    "shimo": "なかかなしよを ひとりかもねむ",
+    "kimariji": "あし",
+    "image_path": "img/f1s1_003.jpg"
+  },
+  {
+    "id": 4,
+    "kami": "田子の浦に うち出でてみれば 白妙の",
+    "shimo": "富士の高嶺に 雪はふりつつ",
+    "kimariji": "たご",
+    "image_path": "img/f1s1_004.jpg"
+  },
+  {
+    "id": 5,
+    "kami": "奥山に 紅葉ふみわけ 鳴く鹿の",
+    "shimo": "声きくときそ 秋はかなしき",
+    "kimariji": "おく",
+    "image_path": "img/f1s1_005.jpg"
+  },
+  {
+    "id": 6,
+    "kami": "かささぎの 渡せる橋に おく霜の",
+    "shimo": "白きをみれは 夜そふけにける",
+    "kimariji": "かさ",
+    "image_path": "img/f1s1_006.jpg"
+  },
+  {
+    "id": 7,
+    "kami": "天の原 ふりさけ見れば 春日なる",
+    "shimo": "三笠の山に 出し月かも",
+    "kimariji": "あまの",
+    "image_path": "img/f1s1_007.jpg"
+  },
+  {
+    "id": 8,
+    "kami": "わが庵は 都のたつみ しかぞ住む",
+    "shimo": "世をうぢ山と 人はいふなり",
+    "kimariji": "わがい",
+    "image_path": "img/f1s1_008.jpg"
+  },
+  {
+    "id": 9,
+    "kami": "花の色は うつりにけりな いたづらに",
+    "shimo": "わか身よにふる なかめせしまに",
+    "kimariji": "はなの",
+    "image_path": "img/f1s1_009.jpg"
+  },
+  {
+    "id": 10,
+    "kami": "これやこの 行くも帰るも 別れては",
+    "shimo": "知るも知らぬも あふ坂の関",
+    "kimariji": "これ",
+    "image_path": "img/f1s1_010.jpg"
+  },
+  {
+    "id": 11,
+    "kami": "わたの原 八十島かけて 漕ぎ出でぬと",
+    "shimo": "人にはつけよ 海人の釣舟",
+    "kimariji": "わたのはらや",
+    "image_path": "img/f1s1_011.jpg"
+  },
+  {
+    "id": 12,
+    "kami": "天つ風 雲のかよひ路 吹きとぢよ",
+    "shimo": "乙女の姿 しはしととめむ",
+    "kimariji": "あまつ",
+    "image_path": "img/f1s1_012.jpg"
+  },
+  {
+    "id": 13,
+    "kami": "筑波嶺の 峰より落つる みなの川",
+    "shimo": "恋そつもりて 淵となりぬる",
+    "kimariji": "つく",
+    "image_path": "img/f1s1_013.jpg"
+  },
+  {
+    "id": 14,
+    "kami": "陸奥の しのぶもぢずり 誰ゆゑに",
+    "shimo": "乱れそめにし われならなくに",
+    "kimariji": "みち",
+    "image_path": "img/f1s1_014.jpg"
+  },
+  {
+    "id": 15,
+    "kami": "君がため 春の野に出でて 若菜つむ",
+    "shimo": "わか衣手に 雪はふりつつ",
+    "kimariji": "きみがためは",
+    "image_path": "img/f1s1_015.jpg"
+  },
+  {
+    "id": 16,
+    "kami": "立ち別れ いなばの山の 峰に生ふる",
+    "shimo": "まつとし聞かは いま帰り来む",
+    "kimariji": "たち",
+    "image_path": "img/f1s1_016.jpg"
+  },
+  {
+    "id": 17,
+    "kami": "ちはやぶる 神代も聞かず 竜田川",
+    "shimo": "からくれなゐに 水くくるとは",
+    "kimariji": "ちは",
+    "image_path": "img/f1s1_017.jpg"
+  },
+  {
+    "id": 18,
+    "kami": "住の江の 岸に寄る波 よるさへや",
+    "shimo": "夢のかよひ路 人目よくらむ",
+    "kimariji": "す",
+    "image_path": "img/f1s1_018.jpg"
+  },
+  {
+    "id": 19,
+    "kami": "難波潟 みじかき芦の ふしの間も",
+    "shimo": "あはてこの世を すくしてよとや",
+    "kimariji": "なにわが",
+    "image_path": "img/f1s1_019.jpg"
+  },
+  {
+    "id": 20,
+    "kami": "わびぬれば 今はた同じ 難波なる",
+    "shimo": "身をつくしても あはむとぞ思ふ",
+    "kimariji": "わび",
+    "image_path": "img/f1s1_020.jpg"
+  },
+  {
+    "id": 21,
+    "kami": "今来むと いひしばかりに 長月の",
+    "shimo": "有明の月を 待ち出でつるかな",
+    "kimariji": "いまこ",
+    "image_path": "img/f1s1_021.jpg"
+  },
+  {
+    "id": 22,
+    "kami": "吹くからに 秋の草木の しをるれば",
+    "shimo": "むへ山風を あらしといふらむ",
+    "kimariji": "ふ",
+    "image_path": "img/f1s1_022.jpg"
+  },
+  {
+    "id": 23,
+    "kami": "月見れば 千々にものこそ かなしけれ",
+    "shimo": "わか身ひとつの 秋にはあらねと",
+    "kimariji": "つき",
+    "image_path": "img/f1s1_023.jpg"
+  },
+  {
+    "id": 24,
+    "kami": "このたびは 幣も取りあへず 手向山",
+    "shimo": "紅葉のにしき 神のまにまに",
+    "kimariji": "この",
+    "image_path": "img/f1s1_024.jpg"
+  },
+  {
+    "id": 25,
+    "kami": "名にし負はば 逢坂山の さねかづら",
+    "shimo": "人に知られで くるよしもかな",
+    "kimariji": "なにし",
+    "image_path": "img/f1s1_025.jpg"
+  },
+  {
+    "id": 26,
+    "kami": "小倉山 峰のもみぢ葉 心あらば",
+    "shimo": "いまひとたひの みゆき待たなむ",
+    "kimariji": "おぐ",
+    "image_path": "img/f1s1_026.jpg"
+  },
+  {
+    "id": 27,
+    "kami": "みかの原 わきて流るる いづみ川",
+    "shimo": "いつ見きとてか 恋しかるらむ",
+    "kimariji": "みかのは",
+    "image_path": "img/f1s1_027.jpg"
+  },
+  {
+    "id": 28,
+    "kami": "山里は 冬ぞさびしさ まさりける",
+    "shimo": "人目も草も かれぬと思へは",
+    "kimariji": "やまざ",
+    "image_path": "img/f1s1_028.jpg"
+  },
+  {
+    "id": 29,
+    "kami": "心あてに 折らばや折らむ 初霜の",
+    "shimo": "おきまとはせる 白菊の花",
+    "kimariji": "こころあ",
+    "image_path": "img/f1s1_029.jpg"
+  },
+  {
+    "id": 30,
+    "kami": "有明の つれなく見えし 別れより",
+    "shimo": "暁ばかり うきものはなし",
+    "kimariji": "ありあ",
+    "image_path": "img/f1s1_030.jpg"
+  },
+  {
+    "id": 31,
+    "kami": "朝ぼらけ 有明の月と 見るまでに",
+    "shimo": "吉野の里に ふれる白雪",
+    "kimariji": "あさぼらけあ",
+    "image_path": "img/f1s1_031.jpg"
+  },
+  {
+    "id": 32,
+    "kami": "山川に 風のかけたる しがらみは",
+    "shimo": "流れもあへぬ 紅葉なりけり",
+    "kimariji": "やまが",
+    "image_path": "img/f1s1_032.jpg"
+  },
+  {
+    "id": 33,
+    "kami": "ひさかたの 光のどけき 春の日に",
+    "shimo": "しつ心なく 花のちるらむ",
+    "kimariji": "ひさ",
+    "image_path": "img/f1s1_033.jpg"
+  },
+  {
+    "id": 34,
+    "kami": "誰をかも 知る人にせむ 高砂の",
+    "shimo": "松もむかしの 友ならなくに",
+    "kimariji": "たれ",
+    "image_path": "img/f1s1_034.jpg"
+  },
+  {
+    "id": 35,
+    "kami": "人はいさ 心も知らず ふるさとは",
+    "shimo": "花そむかしの 香ににほひける",
+    "kimariji": "ひとは",
+    "image_path": "img/f1s1_035.jpg"
+  },
+  {
+    "id": 36,
+    "kami": "夏の夜は まだ宵ながら 明けぬるを",
+    "shimo": "雲のいづこに 月やとるらむ",
+    "kimariji": "なつの",
+    "image_path": "img/f1s1_036.jpg"
+  },
+  {
+    "id": 37,
+    "kami": "白露に 風の吹きしく 秋の野は",
+    "shimo": "つらぬきとめぬ 玉そちりける",
+    "kimariji": "しら",
+    "image_path": "img/f1s1_037.jpg"
+  },
+  {
+    "id": 38,
+    "kami": "忘らるる 身をば思はず 誓ひてし",
+    "shimo": "人の命の 惜しくもあるかな",
+    "kimariji": "わす",
+    "image_path": "img/f1s1_038.jpg"
+  },
+  {
+    "id": 39,
+    "kami": "浅茅生の 小野の篠原 しのぶれど",
+    "shimo": "あまりてなとか 人の恋しき",
+    "kimariji": "あさぢ",
+    "image_path": "img/f1s1_039.jpg"
+  },
+  {
+    "id": 40,
+    "kami": "しのぶれど 色に出でにけり わが恋は",
+    "shimo": "ものや思ふと 人の問ふまで",
+    "kimariji": "しの",
+    "image_path": "img/f1s1_040.jpg"
+  },
+  {
+    "id": 41,
+    "kami": "恋すてふ わが名はまだき 立ちにけり",
+    "shimo": "人知れずこそ 思ひそめしか",
+    "kimariji": "こい",
+    "image_path": "img/f1s1_041.jpg"
+  },
+  {
+    "id": 42,
+    "kami": "契りきな かたみに袖を しぼりつつ",
+    "shimo": "末の松山 波こさじとは",
+    "kimariji": "ちぎりき",
+    "image_path": "img/f1s1_042.jpg"
+  },
+  {
+    "id": 43,
+    "kami": "逢ひ見ての のちの心に くらぶれば",
+    "shimo": "むかしはものを 思はざりけり",
+    "kimariji": "あい",
+    "image_path": "img/f1s1_043.jpg"
+  },
+  {
+    "id": 44,
+    "kami": "逢ふことの 絶えてしなくは なかなかに",
+    "shimo": "人をも身をも 恨みざらまし",
+    "kimariji": "あう",
+    "image_path": "img/f1s1_044.jpg"
+  },
+  {
+    "id": 45,
+    "kami": "あはれとも いふべき人は 思ほえで",
+    "shimo": "身のいたづらに なりぬべきかな",
+    "kimariji": "あわ",
+    "image_path": "img/f1s1_045.jpg"
+  },
+  {
+    "id": 46,
+    "kami": "由良の門を 渡る舟人 かぢを絶え",
+    "shimo": "ゆくへも知らぬ 恋の道かな",
+    "kimariji": "ゆら",
+    "image_path": "img/f1s1_046.jpg"
+  },
+  {
+    "id": 47,
+    "kami": "八重むぐら 茂れる宿の さびしきに",
+    "shimo": "人こそ見えね 秋は来にけり",
+    "kimariji": "やえ",
+    "image_path": "img/f1s1_047.jpg"
+  },
+  {
+    "id": 48,
+    "kami": "風をいたみ 岩うつ波の おのれのみ",
+    "shimo": "くだけてものを 思ふころかな",
+    "kimariji": "かぜを",
+    "image_path": "img/f1s1_048.jpg"
+  },
+  {
+    "id": 49,
+    "kami": "みかき守 衛士のたく火の 夜は燃え",
+    "shimo": "昼は消えつつ ものをこそ思へ",
+    "kimariji": "みかき",
+    "image_path": "img/f1s1_049.jpg"
+  },
+  {
+    "id": 50,
+    "kami": "君がため 惜しからざりし 命さへ",
+    "shimo": "長くもがなと 思ひけるかな",
+    "kimariji": "きみがためお",
+    "image_path": "img/f1s1_050.jpg"
+  },
+  {
+    "id": 51,
+    "kami": "かくとだに えやはいぶきの さしも草",
+    "shimo": "さしもしらじな 燃ゆる思ひを",
+    "kimariji": "かく",
+    "image_path": "img/f1s1_051.jpg"
+  },
+  {
+    "id": 52,
+    "kami": "明けぬれば 暮るるものとは 知りながら",
+    "shimo": "なほうらめしき 朝ぼらけかな",
+    "kimariji": "あけ",
+    "image_path": "img/f1s1_052.jpg"
+  },
+  {
+    "id": 53,
+    "kami": "嘆きつつ ひとり寝る夜の 明くる間は",
+    "shimo": "いかに久しき ものとかは知る",
+    "kimariji": "なげき",
+    "image_path": "img/f1s1_053.jpg"
+  },
+  {
+    "id": 54,
+    "kami": "忘れじの 行く末までは かたければ",
+    "shimo": "今日をかぎりの 命ともがな",
+    "kimariji": "わすれ",
+    "image_path": "img/f1s1_054.jpg"
+  },
+  {
+    "id": 55,
+    "kami": "滝の音は 絶えて久しく なりぬれど",
+    "shimo": "名こそ流れて なほ聞こえけれ",
+    "kimariji": "たき",
+    "image_path": "img/f1s1_055.jpg"
+  },
+  {
+    "id": 56,
+    "kami": "あらざらむ この世のほかの 思ひ出に",
+    "shimo": "いまひとたびの 逢ふこともがな",
+    "kimariji": "あらざ",
+    "image_path": "img/f1s1_056.jpg"
+  },
+  {
+    "id": 57,
+    "kami": "めぐりあひて 見しやそれとも わかぬ間に",
+    "shimo": "雲隠れにし 夜半の月かな",
+    "kimariji": "め",
+    "image_path": "img/f1s1_057.jpg"
+  },
+  {
+    "id": 58,
+    "kami": "有馬山 ゐなの笹原 風吹けば",
+    "shimo": "いでそよ人を 忘れやはする",
+    "kimariji": "ありま",
+    "image_path": "img/f1s1_058.jpg"
+  },
+  {
+    "id": 59,
+    "kami": "やすらはで 寝なましものを さ夜ふけて",
+    "shimo": "かたぶくまでの 月を見しかな",
+    "kimariji": "やす",
+    "image_path": "img/f1s1_059.jpg"
+  },
+  {
+    "id": 60,
+    "kami": "大江山 いく野の道の 遠ければ",
+    "shimo": "まだふみも見ず 天の橋立",
+    "kimariji": "おおえ",
+    "image_path": "img/f1s1_060.jpg"
+  },
+  {
+    "id": 61,
+    "kami": "いにしへの 奈良の都の 八重桜",
+    "shimo": "けふ九重に にほひぬるかな",
+    "kimariji": "いに",
+    "image_path": "img/f1s1_061.jpg"
+  },
+  {
+    "id": 62,
+    "kami": "夜をこめて 鳥のそら音は はかるとも",
+    "shimo": "よに逢坂の 関はゆるさじ",
+    "kimariji": "よを",
+    "image_path": "img/f1s1_062.jpg"
+  },
+  {
+    "id": 63,
+    "kami": "今はただ 思ひ絶えなむ とばかりを",
+    "shimo": "人づてならで いふよしもがな",
+    "kimariji": "いまは",
+    "image_path": "img/f1s1_063.jpg"
+  },
+  {
+    "id": 64,
+    "kami": "朝ぼらけ 宇治の川霧 たえだえに",
+    "shimo": "あらはれわたる 瀬々の網代木",
+    "kimariji": "あさぼらけう",
+    "image_path": "img/f1s1_064.jpg"
+  },
+  {
+    "id": 65,
+    "kami": "恨みわび ほさぬ袖だに あるものを",
+    "shimo": "恋に朽ちなむ 名こそ惜しけれ",
+    "kimariji": "うら",
+    "image_path": "img/f1s1_065.jpg"
+  },
+  {
+    "id": 66,
+    "kami": "もろともに あはれと思へ 山桜",
+    "shimo": "花よりほかに 知る人もなし",
+    "kimariji": "もろ",
+    "image_path": "img/f1s1_066.jpg"
+  },
+  {
+    "id": 67,
+    "kami": "春の夜の 夢ばかりなる 手枕に",
+    "shimo": "かひなく立たむ 名こそ惜しけれ",
+    "kimariji": "はるの",
+    "image_path": "img/f1s1_067.jpg"
+  },
+  {
+    "id": 68,
+    "kami": "心にも あらでうき世に ながらへば",
+    "shimo": "恋しかるべき 夜半の月かな",
+    "kimariji": "こころに",
+    "image_path": "img/f1s1_068.jpg"
+  },
+  {
+    "id": 69,
+    "kami": "あらし吹く 三室の山の もみぢ葉は",
+    "shimo": "竜田の川の 錦なりけり",
+    "kimariji": "あら",
+    "image_path": "img/f1s1_069.jpg"
+  },
+  {
+    "id": 70,
+    "kami": "さびしさに 宿を立ち出でて ながむれば",
+    "shimo": "いづこも同じ 秋の夕暮",
+    "kimariji": "さ",
+    "image_path": "img/f1s1_070.jpg"
+  },
+  {
+    "id": 71,
+    "kami": "夕されば 門田の稲葉 おとづれて",
+    "shimo": "芦のまろやに 秋風ぞ吹く",
+    "kimariji": "ゆう",
+    "image_path": "img/f1s1_071.jpg"
+  },
+  {
+    "id": 72,
+    "kami": "音に聞く 高師の浜の あだ波は",
+    "shimo": "かけしや袖の ぬれもこそすれ",
+    "kimariji": "おと",
+    "image_path": "img/f1s1_072.jpg"
+  },
+  {
+    "id": 73,
+    "kami": "高砂の 尾の上の桜 咲きにけり",
+    "shimo": "外山の霞 立たずもあらなむ",
+    "kimariji": "たか",
+    "image_path": "img/f1s1_073.jpg"
+  },
+  {
+    "id": 74,
+    "kami": "憂かりける 人を初瀬の 山おろしよ",
+    "shimo": "はげしかれとは 祈らぬものを",
+    "kimariji": "うか",
+    "image_path": "img/f1s1_074.jpg"
+  },
+  {
+    "id": 75,
+    "kami": "契りおきし させもが露を 命にて",
+    "shimo": "あはれ今年の 秋もいぬめり",
+    "kimariji": "ちぎりお",
+    "image_path": "img/f1s1_075.jpg"
+  },
+  {
+    "id": 76,
+    "kami": "わたの原 漕ぎ出でてみれば ひさかたの",
+    "shimo": "雲居にまがふ 沖つ白波",
+    "kimariji": "わたのはらこ",
+    "image_path": "img/f1s1_076.jpg"
+  },
+  {
+    "id": 77,
+    "kami": "瀬をはやみ 岩にせかるる 滝川の",
+    "shimo": "われても末に あはむとぞ思ふ",
+    "kimariji": "せ",
+    "image_path": "img/f1s1_077.jpg"
+  },
+  {
+    "id": 78,
+    "kami": "淡路島 かよふ千鳥の 鳴く声に",
+    "shimo": "幾夜ねざめぬ 須磨の関守",
+    "kimariji": "あわじ",
+    "image_path": "img/f1s1_078.jpg"
+  },
+  {
+    "id": 79,
+    "kami": "秋風に たなびく雲の 絶え間より",
+    "shimo": "もれ出づる月の 影のさやけさ",
+    "kimariji": "あきか",
+    "image_path": "img/f1s1_079.jpg"
+  },
+  {
+    "id": 80,
+    "kami": "長からむ 心も知らず 黒髪の",
+    "shimo": "乱れてけさは ものをこそ思へ",
+    "kimariji": "なが",
+    "image_path": "img/f1s1_080.jpg"
+  },
+  {
+    "id": 81,
+    "kami": "ほととぎす 鳴きつる方を ながむれば",
+    "shimo": "ただ有明の 月ぞ残れる",
+    "kimariji": "ほ",
+    "image_path": "img/f1s1_081.jpg"
+  },
+  {
+    "id": 82,
+    "kami": "思ひわび さても命は あるものを",
+    "shimo": "憂きにたへぬは 涙なりけり",
+    "kimariji": "おも",
+    "image_path": "img/f1s1_082.jpg"
+  },
+  {
+    "id": 83,
+    "kami": "世の中よ 道こそなけれ 思ひ入る",
+    "shimo": "山の奥にも 鹿ぞ鳴くなる",
+    "kimariji": "よのなかよ",
+    "image_path": "img/f1s1_083.jpg"
+  },
+  {
+    "id": 84,
+    "kami": "ながらへば またこのごろや しのばれむ",
+    "shimo": "憂しと見し世ぞ 今は恋しき",
+    "kimariji": "ながら",
+    "image_path": "img/f1s1_084.jpg"
+  },
+  {
+    "id": 85,
+    "kami": "夜もすがら もの思ふころは 明けやらで",
+    "shimo": "閨のひまさへ つれなかりけり",
+    "kimariji": "よも",
+    "image_path": "img/f1s1_085.jpg"
+  },
+  {
+    "id": 86,
+    "kami": "嘆けとて 月やはものを 思はする",
+    "shimo": "かこち顔なる わが涙かな",
+    "kimariji": "なげ",
+    "image_path": "img/f1s1_086.jpg"
+  },
+  {
+    "id": 87,
+    "kami": "村雨の 露もまだひぬ 真木の葉に",
+    "shimo": "霧立ちのぼる 秋の夕暮",
+    "kimariji": "む",
+    "image_path": "img/f1s1_087.jpg"
+  },
+  {
+    "id": 88,
+    "kami": "難波江の 芦のかりねの ひとよゆゑ",
+    "shimo": "身をつくしてや 恋ひわたるべき",
+    "kimariji": "なにわえ",
+    "image_path": "img/f1s1_088.jpg"
+  },
+  {
+    "id": 89,
+    "kami": "玉の緒よ 絶えなば絶えね ながらはば",
+    "shimo": "しのぶることの 弱りもぞする",
+    "kimariji": "たま",
+    "image_path": "img/f1s1_089.jpg"
+  },
+  {
+    "id": 90,
+    "kami": "見せばやな 雄島の海人の 袖だにも",
+    "shimo": "ぬれにぞぬれし 色はかはらず",
+    "kimariji": "みせ",
+    "image_path": "img/f1s1_090.jpg"
+  },
+  {
+    "id": 91,
+    "kami": "きりぎりす 鳴くや霜夜の さむしろに",
+    "shimo": "衣かたしき ひとりかも寝む",
+    "kimariji": "きり",
+    "image_path": "img/f1s1_091.jpg"
+  },
+  {
+    "id": 92,
+    "kami": "わが袖は 潮干に見えぬ 沖の石の",
+    "shimo": "人こそ知らね かわく間もなし",
+    "kimariji": "わがそ",
+    "image_path": "img/f1s1_092.jpg"
+  },
+  {
+    "id": 93,
+    "kami": "世の中は 常にもがもな 渚漕ぐ",
+    "shimo": "海人の小舟の 綱手かなしも",
+    "kimariji": "よのなかは",
+    "image_path": "img/f1s1_093.jpg"
+  },
+  {
+    "id": 94,
+    "kami": "み吉野の 山の秋風 さ夜ふけて",
+    "shimo": "ふるさと寒く 衣うつなり",
+    "kimariji": "みよ",
+    "image_path": "img/f1s1_094.jpg"
+  },
+  {
+    "id": 95,
+    "kami": "おほけなく 憂き世の民に おほふかな",
+    "shimo": "わが立つ杣に 墨染の袖",
+    "kimariji": "おおけ",
+    "image_path": "img/f1s1_095.jpg"
+  },
+  {
+    "id": 96,
+    "kami": "花さそふ 嵐の庭の 雪ならで",
+    "shimo": "ふりゆくものは わが身なりけり",
+    "kimariji": "はなさ",
+    "image_path": "img/f1s1_096.jpg"
+  },
+  {
+    "id": 97,
+    "kami": "来ぬ人を 松帆の浦の 夕なぎに",
+    "shimo": "焼くや藻塩の 身もこがれつつ",
+    "kimariji": "こぬ",
+    "image_path": "img/f1s1_097.jpg"
+  },
+  {
+    "id": 98,
+    "kami": "風そよぐ ならの小川の 夕暮は",
+    "shimo": "みそぎぞ夏の しるしなりける",
+    "kimariji": "かぜそ",
+    "image_path": "img/f1s1_098.jpg"
+  },
+  {
+    "id": 99,
+    "kami": "人も愛し 人も恨めし あぢきなく",
+    "shimo": "世を思ふゆゑに もの思ふ身は",
+    "kimariji": "ひとも",
+    "image_path": "img/f1s1_099.jpg"
+  },
+  {
+    "id": 100,
+    "kami": "百敷や 古き軒端の しのぶにも",
+    "shimo": "なほあまりある むかしなりけり",
+    "kimariji": "もも",
+    "image_path": "img/f1s1_100.jpg"
+  }
+]
