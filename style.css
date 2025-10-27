@@ -61,11 +61,17 @@ h2, h3 { border-bottom: 2px solid #ccc; padding-bottom: 5px; }
 .fuda.back { background-image: none !important; background-color: #2E8B57; }
 #tekiJin .fuda.back { transform: rotate(180deg); } /* 裏も逆さま */
 
-/* ★ 札ID表示 (左下) */
+/* ★ 札ID表示 (左下 / 背景なし / 小さく / 影なし) */
 .fuda-id {
-    position: absolute; bottom: 2px; left: 4px; font-size: 10px;
-    font-weight: bold; color: white; background-color: rgba(0, 0, 0, 0.6);
-    padding: 1px 3px; border-radius: 2px; line-height: 1;
+    position: absolute; /* 親要素(.fuda)内の絶対位置を指定 */
+    bottom: 1px;        /* 下端から1px上に配置 */
+    left: 3px;          /* 左端から3px右に配置 */
+    font-size: 8px;     /* 文字サイズを小さく */
+    font-weight: normal;
+    color: black;       /* 文字色 */
+    padding: 0;
+    line-height: 1;
+    /* text-shadow: 0 0 1px white; */ /* この行を削除またはコメントアウト */
 }
 
 /* --- 手札エリア --- */
